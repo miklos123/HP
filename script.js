@@ -7,6 +7,7 @@ async function fetchCharackters() {
 
         const characters = await response.json();
         console.log(characters);
+        displayCharacters(characters);
 
 
     } catch (error) {
@@ -16,7 +17,9 @@ async function fetchCharackters() {
     
 }
 
+function displayCharacters(characters){
 
+}
 
 
 
